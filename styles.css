@@ -1,27 +1,98 @@
+/* HTML (Semantic) Div Selectors */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+main {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: lightgrey;
+}
+
+#container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+/* HTML Element Selectors */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-li {
-  display: inline;
+  overflow: hidden;
 }
 
 li {
   float: left;
 }
 
-a {
-  display: inline-block;
-  padding: 8px;
-  background-color: #dddddd;
-}
-
-body {
+li a {
+  display: block;
+  color: #555;
+  font-size: 0.9rem;
   text-align: center;
+  padding: 1rem;
+  text-decoration: none;
 }
 
+li a:hover {
+  text-decoration: underline;
+}
+
+/* HTML Class Selectors */
+.main-buttons {
+  margin: 1.25rem auto;
+  padding: 0.625rem 0.9375rem;
+  background-color: #f8f9fa;
+  border: none;
+}
+
+.search-bar {
+  width: 40%;
+  line-height: 1.8rem;
+  margin: 0.625rem auto;
+  border: 0.0625rem solid grey;
+  border-radius: 1.5625rem;
+}
+
+.left-top,
+.left-bottom {
+  float: left;
+}
+
+.right-top,
+.right-bottom {
+  float: right;
+}
+
+.sign-in {
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 0.875rem;
+  border: none;
+  background-color: #4285f4;
+}
+
+.left-top,
+.right-top-links {
+  margin-top: 0.3125rem;
+  display: inline;
+}
+
+.right-top-links {
+  /* to vertically center */
+  float: left;
+}
 .google-apps {
-  width: 20px;
+  width: 1.25rem;
 }
