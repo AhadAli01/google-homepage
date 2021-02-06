@@ -3,7 +3,7 @@
 
 ### About
 ***
-This repository has been created for the second project of The Odin Project. This project was an attempt to build the [Google.com](https://www.google.com/) homepage 
+This repository has been created for the second project of The Odin Project. This project was an attempt to build the [Google.com](https://www.google.com/) homepage. 
 
 ### Key Learnings
 ***
